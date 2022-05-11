@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/codeedu/fc2-graphql/graph/generated"
-	"github.com/codeedu/fc2-graphql/graph/model"
+	"github.com/urieloliveira/fc2-graphql/graph/generated"
+	"github.com/urieloliveira/fc2-graphql/graph/model"
 )
 
 func (r *categoryResolver) Courses(ctx context.Context, obj *model.Category) ([]*model.Course, error) {

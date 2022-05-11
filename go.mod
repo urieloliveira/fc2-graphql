@@ -1,4 +1,4 @@
-module github.com/codeedu/fc2-graphql
+module github.com/urieloliveira/fc2-graphql
 
 go 1.15
 
